@@ -1,0 +1,335 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Daoud Oudada",
+    "role": "Junior Full Stack Developer",
+    "tagline": "Specialized in Mobile, Web and Machine Learning",
+    "viewProjects": "View projects",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About me",
+    "description": "I am a junior Full Stack Developer with a background in Multiplatform Application Development (DAM), passionate about creating innovative digital solutions. I currently work as an IT Support Technician in corporate environments, providing hardware and software support and managing incidents across Windows systems, Active Directory, and Office 365.\n\nI combine technical skills, creativity, and a results-driven mindset to continuously grow and add value to every project.",
+    "specialization": "Specialized in Mobile, Web and Machine Learning",
+    "education": "Education",
+    "experienceRole1": "IT Support Technician",
+    "experiencePlace1": "SEAT S.A. · Martorell",
+    "experiencePeriod1": "Nov 2025 – Present",
+    "experienceBullets1": [
+      "Technical support to corporate users (N1 and N2) in SEAT environment",
+      "Hardware/software support on Windows: configuration, maintenance and troubleshooting",
+      "User, group and permission administration in Active Directory",
+      "Microsoft 365 support: Outlook, Teams and OneDrive",
+      "Work with ITIL procedures and focus on service quality"
+    ],
+    "experienceRole2": "IT Technician / Developer (Internship)",
+    "experiencePlace2": "ATGroup",
+    "experiencePeriod2": "Nov 2024 – Jun 2025",
+    "experienceBullets2": [
+      "Issue resolution and employee support",
+      "Writing and maintaining internal technical documentation",
+      "Development of new features for corporate time tracking platform",
+      "Design and development of corporate website with WordPress",
+      "Creation of corporate intranet in WordPress with new features"
+    ],
+    "educationTitle1": "Multiplatform Application Development (DAM)",
+    "educationPlace1": "Institut Tecnològic de Barcelona (ITB) · Barcelona, Spain",
+    "educationPeriod1": "Sep 2023 – Jun 2025",
+    "educationBullets1": [
+      "Training focused on multiplatform development and full stack solutions",
+      "Languages: Java, Kotlin, Python, JavaScript, SQL",
+      "Web: HTML, CSS, JavaScript, WordPress",
+      "Mobile: Android Studio with Jetpack Compose and Ktor (client/server)",
+      "Databases: PostgreSQL, MongoDB, Supabase, Firebase",
+      "Systems: domains/servers, networks, Docker and AWS services",
+      "Frameworks/tools: Unity (games) and Odoo (ERP)",
+      "Machine Learning: models in Python",
+      "Quality: testing with JUnit, debugging and technical documentation"
+    ],
+    "educationTitle2": "Software Development Program",
+    "educationPlace2": "42 Barcelona",
+    "educationPeriod2": "Nov 2025",
+    "educationBullets2": [
+      "Intensive program based on projects and peer-learning",
+      "Piscine passed: C, algorithms and data structures",
+      "Git for version control and collaborative work",
+      "Focus on problem solving, logic and teamwork",
+      "Methodology without traditional classes, autonomy and continuous improvement"
+    ],
+    "experience": "Experience",
+    "technologies": "Technologies",
+    "softSkills": "Soft skills",
+    "softSkillsList": [
+      "Problem solving",
+      "Continuous learning ability",
+      "Teamwork",
+      "Clear technical communication",
+      "Autonomy and responsibility"
+    ],
+    "skills": {
+      "teamwork": "Teamwork",
+      "communication": "Effective communication",
+      "problemSolving": "Problem solving",
+      "adaptability": "Adaptability",
+      "learning": "Continuous learning"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my most recent work",
+    "readMore": "Read more",
+    "backToProjects": "Back to projects",
+    "backToHome": "Back to home",
+    "notFound": "Project not found",
+    "projectDescription": "Project description",
+    "mainFeatures": "Main features",
+    "challenges": "Challenges",
+    "learnings": "Learnings",
+    "technologiesUsed": "Technologies",
+    "status": "Status",
+    "links": "Links",
+    "liveDemo": "Live demo",
+    "moreProjects": "Want to see more projects?",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ml": "Machine Learning"
+    },
+    "viewCode": "View code",
+    "viewDemo": "View demo",
+    "list": {
+      "todo-list-app": {
+        "title": "Task Management Application - Modern To Do List",
+        "shortDescription": "Modern and responsive web application for task management with glassmorphism design and local persistence.",
+        "status": "Completed",
+        "fullDescription": "Complete web task management application built with HTML5, CSS3, and vanilla JavaScript. Implements a modern design with glassmorphism effects, color-coded task categorization, completion marking, and persistence system using localStorage. The interface is fully responsive and offers a smooth user experience with dynamic interactions and attractive visual design.",
+        "features": [
+          "Add, edit and delete tasks with intuitive form",
+          "Color categorization (Personal, Work, Health, etc.)",
+          "Mark tasks as completed with visual animation",
+          "Data persistence in browser's localStorage",
+          "Responsive design compatible with mobile, tablets and desktop",
+          "Glassmorphism effects for a modern and professional look",
+          "Drag-and-drop interface for task reorganization"
+        ],
+        "challenges": [
+          "Implement data persistence without backend using localStorage efficiently",
+          "Design a visually attractive interface with glassmorphism that worked well on different backgrounds",
+          "Manage application state only with vanilla JavaScript without frameworks",
+          "Optimize dynamic DOM rendering to maintain good performance"
+        ],
+        "learnings": [
+          "Advanced DOM manipulation with vanilla JavaScript without external dependencies",
+          "LocalStorage implementation for client-side data persistence",
+          "Modern interface design with CSS3 (glassmorphism, gradients, animations)",
+          "SPA (Single Page Application) development without frameworks",
+          "UX/UI design principles for productivity applications",
+          "State management in frontend applications with pure JavaScript"
+        ]
+      },
+      "hospital-del-mar-app": {
+        "title": "Educational Project Management Platform - Hospital del Mar",
+        "shortDescription": "Native Android app for educational project management with bidirectional evaluation and progress visualization.",
+        "status": "Completed",
+        "fullDescription": "Educational Android platform developed for Hospital del Mar in Barcelona that facilitates the management of student projects and bidirectional evaluation between teachers and students. Includes secure authentication, differentiated user roles (student/teacher), real-time progress visualization, evaluation system with customizable criteria, and modern architecture with Jetpack Compose and Ktor for client-server communication.",
+        "features": [
+          "Robust authentication system with persistent session management",
+          "Differentiated roles: teacher view (full management) and student (viewing/tracking)",
+          "Creation, editing and visualization of educational projects with complete details",
+          "Bidirectional evaluation system with customizable criteria and detailed feedback",
+          "Individual and group progress visualization with dynamic charts",
+          "Modern and native interface built with Jetpack Compose",
+          "Client-server communication via Ktor with REST API",
+          "Local data persistence and cloud synchronization"
+        ],
+        "challenges": [
+          "Implement a complex evaluation system with multiple criteria and differentiated roles",
+          "Design a scalable client-server architecture with Ktor for efficient request management",
+          "Synchronize data between devices and server maintaining consistency and offline availability",
+          "Build a complex native UI with Jetpack Compose respecting Material Design 3",
+          "Manage authentication states and sessions securely on Android client"
+        ],
+        "learnings": [
+          "Modern Android development with Jetpack Compose for declarative UIs",
+          "REST API implementation with Ktor (server and HTTP client)",
+          "MVVM architecture on Android with StateFlow and ViewModel",
+          "Authentication and authorization management in mobile applications",
+          "Adaptive interface design with Material Design 3",
+          "Complex state management and navigation in Jetpack Compose",
+          "Local persistence with Room Database and backend synchronization"
+        ]
+      },
+      "ai-chatbot-fullstack": {
+        "title": "Multi-Provider AI Chatbot - Full Stack Application",
+        "shortDescription": "Full-stack web application with intelligent chat, multi-provider AI integration (OpenAI/Gemini) and secure authentication.",
+        "status": "Completed",
+        "fullDescription": "Full-stack intelligent chat web application with modern architecture integrating multiple AI providers (OpenAI GPT and Google Gemini). The frontend is developed with React and TypeScript, the backend with Node.js/Express, and uses Firebase for authentication and real-time database. Users can create conversations, switch between AI models, customize chatbot experience, and manage their complete chat history with a modern ChatGPT-like interface.",
+        "features": [
+          "Secure user authentication via Firebase Authentication (email/password)",
+          "Integration with OpenAI GPT-4 and Google Gemini for intelligent responses",
+          "Dynamic AI model selector (OpenAI or Gemini) with real-time switching",
+          "Complete conversation management: create, delete, rename and organize chats",
+          "Persistent conversation history saved in Firebase Realtime Database",
+          "Modern and responsive chat interface with Markdown formatting for responses",
+          "Response streaming system for smooth user experience",
+          "Settings panel to customize model and chatbot parameters"
+        ],
+        "challenges": [
+          "Integrate multiple AI APIs (OpenAI and Gemini) with unified logic and robust error handling",
+          "Implement real-time response streaming from backend to frontend",
+          "Design an efficient conversation management system with Firebase Realtime Database",
+          "Handle secure authentication and user state management in React/Firebase",
+          "Optimize user experience to maintain fluidity in long conversations",
+          "Protect API keys in backend and manage rate limits from providers"
+        ],
+        "learnings": [
+          "Full-stack development with React (TypeScript), Node.js and Express",
+          "AI API integration: OpenAI GPT-4 and Google Gemini",
+          "Authentication and user management with Firebase Authentication",
+          "Real-time database with Firebase Realtime Database",
+          "HTTP streaming implementation for progressive responses",
+          "Global state management in React with Context API",
+          "Modern conversational interface design (chat UX)",
+          "Security in full-stack applications: API key protection, CORS and validation"
+        ]
+      },
+      "dev-portfolio": {
+        "title": "Professional Developer Portfolio - Multi-Language",
+        "shortDescription": "Professional web portfolio with multi-language support (ES, EN), modern design and project management.",
+        "status": "Completed",
+        "fullDescription": "Professional web portfolio for developers built with React, TypeScript, Vite and Tailwind CSS. Features a modern, responsive and fully bilingual (Spanish and English) design with custom translation system via Context API. Includes sections for personal presentation, work experience, academic background, featured projects with individual detail pages, downloadable CV, and contact form. All optimized for performance and SEO.",
+        "features": [
+          "Complete internationalization (i18n) system with Spanish and English support",
+          "Mobile-first responsive design compatible with all devices",
+          "Projects section with filters by category (Web, Mobile, ML)",
+          "Detail pages for each project with features, challenges and learnings",
+          "Downloadable PDF CV and interactive experience/education section",
+          "Functional contact form with data validation",
+          "Smooth navigation with automatic scroll to sections",
+          "Modern UI components with shadcn-ui and Tailwind CSS"
+        ],
+        "challenges": [
+          "Implement a robust translation system without external libraries (i18next)",
+          "Design a scalable and maintainable component architecture with TypeScript",
+          "Create dynamic detail pages for projects with React Router routing",
+          "Optimize performance and load times with Vite and code splitting",
+          "Maintain visual consistency across all sections with coherent design system"
+        ],
+        "learnings": [
+          "React application development with TypeScript and modern architecture",
+          "Internationalization system implementation with Context API",
+          "Design system building with Tailwind CSS and reusable components",
+          "Routing and navigation with React Router v6",
+          "Build and performance optimization with Vite",
+          "Shadcn-ui integration for professional UI components",
+          "Global state management with React Context",
+          "Web development best practices: accessibility, SEO and responsiveness"
+        ]
+      },
+      "mappsapp": {
+        "title": "Location-Based Services Platform - MappsApp",
+        "shortDescription": "Native Android application with integrated Google Maps, real-time geolocation and cloud synchronization.",
+        "status": "Completed",
+        "fullDescription": "Advanced Android application for location-based services integrating Google Maps API for interactive map visualization, real-time geolocation, custom markers and routes. Implements user authentication, creation and management of favorite locations, place search, and cloud synchronization with Firebase. Developed with Jetpack Compose and MVVM architecture for a smooth and modern native experience.",
+        "features": [
+          "Complete Google Maps integration with custom controls",
+          "Real-time geolocation with dynamically managed permissions",
+          "Creation of custom markers on map with detailed information",
+          "Place search with Google Places API and autocomplete",
+          "Favorite locations management: add, edit, delete and categorize",
+          "Cloud data synchronization with Firebase Firestore",
+          "User authentication via Firebase Authentication",
+          "Route calculation and visualization between locations with Google Directions API"
+        ],
+        "challenges": [
+          "Integrate Google Maps SDK efficiently with Jetpack Compose (interop with MapView)",
+          "Manage complex location permissions on Android robustly",
+          "Synchronize location data between local device and Firestore maintaining consistency",
+          "Implement place search with responsive and accurate autocomplete",
+          "Optimize app performance with multiple markers on map",
+          "Handle loading, error and success states in network and geolocation operations"
+        ],
+        "learnings": [
+          "Advanced Google Maps API integration on Android with Jetpack Compose",
+          "Working with Google Places API and Directions API for location services",
+          "Runtime permission management on modern Android",
+          "Data synchronization with Firebase Firestore and authentication",
+          "MVVM architecture for complex Android applications",
+          "Real-time geolocation with FusedLocationProviderClient",
+          "Interoperability between Jetpack Compose and traditional Views (MapView)",
+          "Performance optimization in applications with location services"
+        ]
+      },
+      "netflix-content-analysis-ml": {
+        "title": "Netflix Streaming Analytics - ML Content Classification",
+        "shortDescription": "Complete data analysis of Netflix catalog with EDA, analytical visualizations and predictive classification model.",
+        "status": "Completed",
+        "fullDescription": "Data analysis and machine learning project applied to the complete Netflix catalog. Includes comprehensive exploratory data analysis (EDA) with interactive visualizations, statistical analysis of content trends, data preprocessing with cleaning and feature engineering, and development of a predictive classification model to categorize content. Implemented with Python, Pandas, Matplotlib, Seaborn and Scikit-learn in Jupyter Notebooks for visual documentation of the complete process.",
+        "features": [
+          "Exploratory data analysis (EDA) of complete Netflix catalog",
+          "Interactive visualizations: distributions, temporal trends, correlations",
+          "Advanced preprocessing: data cleaning, missing value handling, normalization",
+          "Feature engineering: creation of relevant derived variables for classification",
+          "Supervised classification model to predict content categories",
+          "Model evaluation with metrics (accuracy, precision, recall, F1-score)",
+          "Confusion matrix and model error analysis",
+          "Complete process documentation in Jupyter Notebook with technical narrative"
+        ],
+        "challenges": [
+          "Clean and prepare a large dataset with multiple types of inconsistencies and missing values",
+          "Design relevant features from textual data (descriptions, genres, etc.)",
+          "Select the most appropriate classification model through algorithm comparison",
+          "Handle class imbalance in dataset to avoid model biases",
+          "Interpret model results clearly and generate actionable insights",
+          "Create informative and aesthetically professional visualizations for EDA"
+        ],
+        "learnings": [
+          "Exploratory data analysis (EDA) with Pandas, Matplotlib and Seaborn",
+          "Preprocessing techniques: data cleaning, imputation, normalization",
+          "Feature engineering to improve ML model performance",
+          "Supervised classification with Scikit-learn (Logistic Regression, Random Forest, SVM)",
+          "Model evaluation: classification metrics, cross-validation, hyperparameter tuning",
+          "Data visualization: advanced charts, heatmaps, distributions",
+          "Technical documentation with Jupyter Notebooks for Data Science projects",
+          "Results interpretation and insight generation from data"
+        ]
+      }
+    }
+  },
+  "cv": {
+    "title": "Resume",
+    "description": "Download my complete CV to learn more about my experience, education, and technical skills.",
+    "download": "Download CV (PDF)",
+    "view": "View CV online",
+    "education": "Education",
+    "experience": "Experience",
+    "tasks": "Key tasks & achievements",
+    "techStack": "Tech stack",
+    "techTitle": "Technologies I use",
+    "softSkills": "Soft skills",
+    "softTitle": "How I work"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "success": "Message sent successfully!",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@email.com",
+    "messagePlaceholder": "Write your message here..."
+  },
+  "footer": {
+    "copyright": "© 2025 Daoud Oudada. All rights reserved."
+  }
+}

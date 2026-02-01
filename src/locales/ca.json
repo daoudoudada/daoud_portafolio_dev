@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Inici",
+    "about": "Sobre mi",
+    "projects": "Projectes",
+    "cv": "CV",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "greeting": "Hola, sóc",
+    "name": "Daoud Oudada",
+    "role": "Junior Full Stack Developer",
+    "tagline": "Especialitzat en Web, Mobile i Machine Learning",
+    "viewProjects": "Veure projectes",
+    "downloadCV": "Descarregar CV"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "description": "Sóc un desenvolupador Full Stack junior apassionat per crear solucions digitals innovadores. Amb formació en Desenvolupament d'Aplicacions Multiplataforma (DAM), combino creativitat tècnica amb un enfocament orientat a resultats.",
+    "education": "Formació",
+    "educationTitle": "DAM - Desenvolupament d'Aplicacions Multiplataforma",
+    "educationPlace": "Barcelona, Espanya",
+    "educationPeriod": "2023 - 2025",
+    "educationBullets": [
+      "Aplicacions mòbils natives amb Kotlin",
+      "Bases de dades SQL i NoSQL",
+      "APIs REST amb Node.js i Express",
+      "Frontend amb React i Tailwind"
+    ],
+    "experience": "Experiència",
+    "experienceRole": "Desenvolupador Full Stack (projectes)",
+    "experiencePlace": "Remot / Freelance",
+    "experiencePeriod": "2023 - 2025",
+    "experienceBullets": [
+      "Landing pages i dashboards responsive",
+      "Autenticació i gestió bàsica de rols",
+      "Desplegaments a Vercel / render amb CI simple"
+    ],
+    "technologies": "Tecnologies",
+    "softSkills": "Habilitats toves",
+    "skills": {
+      "teamwork": "Treball en equip",
+      "communication": "Comunicació efectiva",
+      "problemSolving": "Resolució de problemes",
+      "adaptability": "Adaptabilitat",
+      "learning": "Aprenentatge continu"
+    }
+  },
+  "projects": {
+    "title": "Projectes",
+    "subtitle": "Una selecció dels meus treballs més recents",
+    "filters": {
+      "all": "Tots",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ml": "Machine Learning"
+    },
+    "viewCode": "Veure codi",
+    "viewDemo": "Veure demo"
+  },
+  "cv": {
+    "title": "Currículum",
+    "description": "Descarrega el meu CV complet per conèixer més sobre la meva experiència, formació i habilitats tècniques.",
+    "download": "Descarregar CV (PDF)",
+    "view": "Veure CV online",
+    "education": "Formació acadèmica",
+    "experience": "Experiència",
+    "tasks": "Tasques i assoliments",
+    "techStack": "Stack tècnic",
+    "techTitle": "Tecnologies que domino",
+    "softSkills": "Habilitats toves",
+    "softTitle": "Com treballo"
+  },
+  "contact": {
+    "title": "Contacte",
+    "subtitle": "Tens un projecte en ment? Parlem!",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Missatge",
+    "send": "Enviar missatge",
+    "success": "Missatge enviat amb èxit!",
+    "namePlaceholder": "El teu nom",
+    "emailPlaceholder": "tu@email.com",
+    "messagePlaceholder": "Escriu el teu missatge aquí..."
+  },
+  "footer": {
+    "copyright": "© 2025 Daoud Oudada. Tots els drets reservats."
+  }
+}

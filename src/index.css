@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System for Daoud Oudada Portfolio
+   Color palette: Light blue (#3B82F6), white, light gray
+   Style: Modern, clean, professional, youthful
+*/
+
+@layer base {
+  :root {
+    /* Main background - Light blue #a9c6ee - más claro */
+    --background: 207 65% 95%;
+    --foreground: 215 28% 17%;
+
+    /* Card surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+
+    /* Popover surfaces */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 28% 17%;
+
+    /* Primary - Soft blue #93C5FD (Tu Camisa) */
+    --primary: 207 85% 66%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Secondary slate más claro */
+    --secondary: 207 65% 93%;
+    --secondary-foreground: 215 20% 28%;
+
+    /* Muted - Subtle gray */
+    --muted: 207 65% 93%;
+    --muted-foreground: 215 14% 34%;
+
+    /* Accent - Action Blue #1D4ED8 (Tu Saco) */
+    --accent: 219 58% 42%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 207 65% 93%;
+    --input: 207 65% 93%;
+    --ring: 207 85% 66%;
+
+    --radius: 0.75rem;
+
+    /* Custom portfolio colors */
+    --hero-gradient-start: 207 85% 66%;
+    --hero-gradient-end: 219 58% 42%;
+    --section-alt: 207 65% 94%;
+    --tech-badge: 207 85% 90%;
+    --tech-badge-text: 219 58% 40%;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(220 20% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 20% 15% / 0.1), 0 2px 4px -2px hsl(220 20% 15% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(220 20% 15% / 0.1), 0 4px 6px -4px hsl(220 20% 15% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(220 20% 15% / 0.1), 0 8px 10px -6px hsl(220 20% 15% / 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  /* Hero gradient background */
+  .hero-gradient {
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
+  }
+
+  /* Section alternate background */
+  .section-alt {
+    background-color: hsl(var(--section-alt));
+  }
+
+  /* Tech badge styling */
+  .tech-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+    background-color: hsl(var(--tech-badge));
+    color: hsl(var(--tech-badge-text));
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Smooth link underline animation */
+  .link-underline {
+    @apply relative;
+  }
+  
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+  
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Fade in animation */
+  .fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Stagger children animation */
+  .stagger-children > * {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .stagger-children > *:nth-child(1) { animation-delay: 0.1s; }
+  .stagger-children > *:nth-child(2) { animation-delay: 0.2s; }
+  .stagger-children > *:nth-child(3) { animation-delay: 0.3s; }
+  .stagger-children > *:nth-child(4) { animation-delay: 0.4s; }
+  .stagger-children > *:nth-child(5) { animation-delay: 0.5s; }
+  .stagger-children > *:nth-child(6) { animation-delay: 0.6s; }
+
+  /* Button primary variant */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-primary-foreground transition-all duration-200;
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)) 0%, hsl(var(--hero-gradient-end)) 100%);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -5px hsl(var(--primary) / 0.4);
+  }
+
+  /* Button outline variant */
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium border-2 border-primary text-primary transition-all duration-200 bg-transparent;
+  }
+
+  .btn-outline:hover {
+    @apply bg-primary text-primary-foreground;
+    transform: translateY(-2px);
+  }
+
+  /* Filter button */
+  .filter-btn {
+    @apply px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 border border-border;
+    background-color: hsl(var(--background));
+    color: hsl(var(--muted-foreground));
+  }
+
+  .filter-btn:hover {
+    @apply border-primary text-primary;
+  }
+
+  .filter-btn.active {
+    @apply bg-primary text-primary-foreground border-primary;
+  }
+
+  /* Input styling */
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground transition-all duration-200;
+  }
+
+  .input-field:focus {
+    @apply outline-none ring-2 ring-primary/20 border-primary;
+  }
+
+  .input-field::placeholder {
+    @apply text-muted-foreground;
+  }
+}
