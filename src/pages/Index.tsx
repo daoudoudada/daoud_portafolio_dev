@@ -1,8 +1,9 @@
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
-import About from '@/components/About';
 import Projects from '@/components/Projects';
+import Experience from '@/components/Experience';
+import Education from '@/components/Education';
 import CV from '@/components/CV';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -14,8 +15,9 @@ const Index = () => {
         <Navbar />
         <main>
           <Hero />
-          <About />
           <Projects />
+          <Experience />
+          <Education />
           <CV />
           <Contact />
         </main>

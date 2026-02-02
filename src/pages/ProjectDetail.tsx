@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import { projects } from '@/data/projects';
 import { ArrowLeft, Github, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { LanguageProvider, useLanguage } from '@/contexts/LanguageContext';
@@ -10,6 +11,16 @@ const ProjectDetailContent = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
   const project = projects.find((p) => p.slug === slug);
+
+  useEffect(() => {
+    // Scroll al título del proyecto cuando la página carga
+    const projectTitle = document.getElementById('project-title');
+    if (projectTitle) {
+      setTimeout(() => {
+        projectTitle.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  }, [slug]);
 
   if (!project) {
     return (
@@ -48,7 +59,7 @@ const ProjectDetailContent = () => {
             </button>
             
             <div className="flex items-center gap-4 mb-4">
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+              <h1 id="project-title" className="text-4xl md:text-5xl font-bold text-foreground">
                 {projectData.title}
               </h1>
               <span className="px-4 py-2 rounded-full text-sm font-semibold bg-green-100 text-green-800">

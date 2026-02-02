@@ -1,9 +1,8 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import es from '../locales/es.json';
-import ca from '../locales/ca.json';
 import en from '../locales/en.json';
 
-type Language = 'es' | 'ca' | 'en';
+type Language = 'es' | 'en';
 
 interface LanguageContextType {
   language: Language;
@@ -11,7 +10,7 @@ interface LanguageContextType {
   t: typeof es;
 }
 
-const translations = { es, ca, en };
+const translations = { es, en };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 

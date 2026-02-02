@@ -60,7 +60,7 @@ const About = () => {
 
   return (
     <section id="about" className="py-20 section-alt">
-      <div className="container mx-auto px-4">
+      <div className="w-full max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           {t.about.title}
         </h2>
@@ -82,7 +82,6 @@ const About = () => {
                 <div>
                   <p className="text-sm text-primary font-semibold uppercase tracking-wide">{t.about.experience}</p>
                   <h3 className="text-xl font-semibold">Experiencia laboral</h3>
-                  <p className="text-muted-foreground text-sm">Añade tus roles reales</p>
                 </div>
               </div>
               <div className="space-y-5">
@@ -116,7 +115,6 @@ const About = () => {
                 <div>
                   <p className="text-sm text-primary font-semibold uppercase tracking-wide">{t.about.education}</p>
                   <h3 className="text-xl font-semibold">Formación académica</h3>
-                  <p className="text-muted-foreground text-sm">Actualiza con tus datos</p>
                 </div>
               </div>
               <div className="space-y-5">

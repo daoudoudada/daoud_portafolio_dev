@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: "./", // <-- Añade esto para que funcione en Netlify/GitHub Pages
   test: {
     environment: "jsdom",
     globals: true,

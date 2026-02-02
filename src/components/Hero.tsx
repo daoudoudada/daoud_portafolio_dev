@@ -19,8 +19,8 @@ const Hero = () => {
         <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-accent/30 rounded-full blur-3xl" />
       </div>
 
-      <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+      <div className="w-full max-w-6xl mx-auto px-4 py-16">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20">
           {/* Profile Image */}
           <div className="relative fade-in">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
 
           {/* Content */}
-          <div className="text-center lg:text-left stagger-children max-w-xl">
+          <div className="text-center stagger-children max-w-xl">
             <p className="text-primary font-medium text-lg mb-2">
               {t.hero.greeting}
             </p>
@@ -50,7 +50,7 @@ const Hero = () => {
             </p>
 
             {/* Social Links */}
-            <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
+            <div className="flex items-center justify-center gap-4 mb-8">
               {socialLinks.map((link) => (
                 <a
                   key={link.label}
@@ -66,7 +66,7 @@ const Hero = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="#projects" className="btn-primary">
                 {t.hero.viewProjects}
                 <ArrowDown className="w-4 h-4" />
