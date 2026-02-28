@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/#home" className="text-xl font-bold text-primary">
+          <Link to="/#home" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
             DO
           </Link>
 

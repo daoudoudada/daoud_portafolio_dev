@@ -1,4 +1,4 @@
-{
+export default {
   "nav": {
     "home": "Home",
     "about": "About",
@@ -332,4 +332,4 @@
   "footer": {
     "copyright": "© 2025 Daoud Oudada. All rights reserved."
   }
-}
+} as const;
