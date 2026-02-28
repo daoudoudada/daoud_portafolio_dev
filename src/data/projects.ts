@@ -41,7 +41,7 @@ export const projects: ProjectDetail[] = [
     technologies: ['React 18', 'TypeScript', 'Vite', 'Tailwind CSS', 'shadcn-ui', 'React Query', 'Context API'],
     category: 'web',
     image: '/projects/portafolio.png',
-    githubUrl: 'https://github.com/daoudoudada/daoud-s-devfolio.git',
+    githubUrl: 'https://github.com/daoudoudada/daoud_portafolio_dev',
   },
   {
     id: 5,
