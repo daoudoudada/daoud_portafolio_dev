@@ -15,7 +15,7 @@ const CV = () => {
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">{t.cv.description}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
-              href="/CvDaoudOudada.pdf"
+              href="/CvOudadaDaoud.pdf"
               target="_blank"
               rel="noreferrer"
               className="btn-secondary inline-flex"
@@ -24,7 +24,7 @@ const CV = () => {
               {t.cv.view}
             </a>
             <a
-              href="/CvDaoudOudada.pdf"
+              href="/CvOudadaDaoud.pdf"
               download="Daoud_Oudada_CV.pdf"
               className="btn-primary inline-flex"
             >
